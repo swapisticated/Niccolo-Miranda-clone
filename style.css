@@ -1,10 +1,10 @@
 @font-face {
     font-family: Canopee;
-    src: url(Canopee.ttf);
+    src: url(/fonts/Canopee.ttf);
     font-family: Domain;
-    src: url(DomaineDispCondMedium.ttf);
+    src: url(/fonts/DomaineDispCondMedium.ttf);
     font-family: editorialnew;
-    src: url(EditorialNew-Light.ttf)
+    src: url(/fonts/EditorialNew-Light.ttf)
 }
 
 
