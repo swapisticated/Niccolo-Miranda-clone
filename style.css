@@ -1,6 +1,6 @@
 @font-face {
     font-family: Canopee;
-    src: url(/fonts/Canopee.ttf);
+    src: url(fonts/Canopee.ttf);
     font-family: Domain;
     src: url(/fonts/DomaineDispCondMedium.ttf);
     font-family: editorialnew;
@@ -8,58 +8,64 @@
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
 
-#main{
+#main {
 
     background-color: #222;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
-#page1{
+#page1 {
 
-   height: 2200px;
+    height: 110vh;
     width: 100vw;
 
     background-color: #C4BCB3;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
-#nav{
+
+#nav {
     width: 100%;
     height: 105px;
     display: flex;
     align-items: center;
     padding: 0 30px;
     justify-content: space-between;
-    border-bottom:  0.1px solid black;
+    border-bottom: 0.1px solid black;
 }
-#nav img{
+
+#nav img {
 
     height: 27.5px;
     width: 30%;
 }
-#nav h5{
+
+#nav h5 {
     font-size: 19px;
     font-weight: 100px;
     width: 30%;
 
 }
-#nav i{
+
+#nav i {
     width: 30%;
     text-align: right;
 
 }
 
-#elems{
+#elems {
     /* background-color: red; */
     height: 430px;
     display: flex;
@@ -67,65 +73,81 @@ html,body{
     justify-content: space-between;
     padding: 40px 60px;
 }
-#elem1{
+
+#elem1 {
     width: 30%;
-    height:100%;
+    height: 100%;
     /* background-color: blue; */
 }
-#elem2{
+
+#elem2 {
 
     width: 30%;
-    height:100%;    
+    height: 100%;
     border-right: 1px solid #848484;
     border-left: 1px solid #848484;
     text-align: center;
     /* background-color: blue; */
 }
-#elem3{
+
+#elem3 {
 
     width: 30%;
-    height:100%;
+    height: 100%;
     /* background-color: blue; */
 }
-#elem1 #img-zoom{
+
+#elem1 #img-zoom {
     height: 60%;
     width: 100%;
     overflow: hidden;
 }
-#elem3 #img-zoom{
-    height: 4=60%;
+
+#elem3 #img-zoom {
+    height: 60%;
     width: 100%;
     overflow: hidden;
 }
-#img-zoom img{
+
+#img-zoom img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: all ease 0.5s;
 }
-#img-zoom :hover{
- scale: 1.1;
+
+#img-zoom :hover {
+    scale: 1.1;
 }
 
-#elem1 h4{
- font-size: 24px;
- margin-top: 20px;
- margin-bottom: 20px;
- font-family: canopee;
+#elem1 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: canopee;
 
 
- 
+
 }
-#elem1 h4 span{
+
+#elem1 h4 .notspan {
+    color: #1C1C19;
+    font-family: canopee;
+    font-weight: 50;
+    font-weight: 1;
+}
+
+#elem1 h4 .new {
     background-color: #BA3D12;
     color: #C3BBB1;
     font-weight: 100;
     font-size: 18px;
     padding: 4px;
     border-radius: 5px;
+    margin-top: 0px;
 }
 
-#elem1 p{
+#elem1 p {
 
     font-family: Domain;
     font-size: 20px;
@@ -135,41 +157,42 @@ html,body{
     color: #606060;
 }
 
-#elem3 h4{
+#elem3 h4 {
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: canopee;
-   
-   
-    
-   }
-   #elem3 h4 span{
-       background-color: #BA3D12;
-       color: #C3BBB1;
-       font-weight: 100;
-       font-size: 18px;
-       padding: 4px;
-       border-radius: 5px;
-   }
-   
-   #elem3 p{
-   
-       font-family: Domain;
-       font-size: 20px;
-       margin-top: 20px;
-       margin-bottom: 20px;
-       font-weight: 100;
-       color: #606060;
-   }
 
-   #elem2 h2{
+
+
+}
+
+#elem3 h4 span {
+    background-color: #BA3D12;
+    color: #C3BBB1;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#elem3 p {
+
+    font-family: Domain;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: #606060;
+}
+
+#elem2 h2 {
     font-family: Canopee;
     font-weight: 100;
     font-size: 75px;
 }
 
-#elem2 h3{
+#elem2 h3 {
     font-family: Domain;
     font-weight: 100;
     font-size: 45px;
@@ -179,14 +202,14 @@ html,body{
 
 }
 
-#elem2 h6{
+#elem2 h6 {
     font-family: Domain;
     font-weight: 100;
     font-size: 20px;
     color: #4a4a4a;
 }
 
-#page1 h1{
+#page1 h1 {
     font-size: 700px;
     letter-spacing: -25px;
     font-weight: 100;
@@ -199,13 +222,103 @@ html,body{
 }
 
 
-#page2{
+#page2 {
 
-    height: 350vh;
+    height: 150vh;
     width: 100%;
     background-color: #C4BCB3;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 90px 40px;
+
+}
+
+#page2-left {
+
+    height: 100%;
+    width: 35%;
+    padding-right: 50px;
+    border-right: 1px solid #2b2b2b;
+    /* text-align: center; */
+
+}
+
+#page2-left h2 {
+    font-family: canopee;
+    font-size: 150px;
+    font-weight: 100;
+    line-height: 150px;
+}
+
+
+#page2-left img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-left h2 span {
+    font-size: 210px;
+    font-weight: 600;
+}
+
+#page2-right {
+    height: 100%;
+    width: 70%;
+    padding: 0 60px;
+}
+
+#page2-left p {
+    font-size: 30px;
+    font-family: domain;
+    color: #2f2f2f;
+    margin-top: 20px;
+}
+/* #page2-left p span{
+    font-size: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color:#C4BCB3;
+    background-color: #222;
+} */
+
+#page2-right img {
+    height: 53%;
+    object-fit: cover;
+    width: 100%;
+}
+
+#page2-right h1 {
+    font-family: canopee;
+    font-size: 140px;
+    font-weight: 100;
+    letter-spacing: -1.9px;
+}
+
+#page3 {
+    height: 50vh;
+    width: 100%;
+    background-color: #C4BCB3;
+    position: relative;
+    /* padding-bottom: 100px; */
+    
+}
+#page3 h1{
+    font-family: canopee;
+    background-color: #2f2f2f;
+    color: #C3BBB1;
+    font-size: 550px;
+    width: fit-content;
+    letter-spacing: -10px;
+    margin-left: 2%;
+    padding: 0 20px;
+    font-weight: 100;
+    line-height: 500px;
+}
+#page3 img{
+height: 400px;
+position: absolute;
+top: 0;
+right:3%;    /* height: 150vh; */
 }
